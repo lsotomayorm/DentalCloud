@@ -1,6 +1,6 @@
 <?php
 
-namespace app\Modules\Pacientes\Domain\Entities;
+namespace App\Modules\Pacientes\Domain\Entities;
 
 use DateTimeImmutable;
 use InvalidArgumentException;

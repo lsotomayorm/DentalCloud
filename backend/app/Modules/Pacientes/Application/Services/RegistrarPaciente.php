@@ -1,6 +1,6 @@
 <?php
 
-namespace app\Modules\Pacientes\Application\Services;
+namespace App\Modules\Pacientes\Application\Services;
 
 use App\Modules\Pacientes\Domain\Entities\Paciente;
 use App\Modules\Pacientes\Domain\Repositories\PacienteRepository;

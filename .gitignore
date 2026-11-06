@@ -1,0 +1,268 @@
+# ==================================================
+# DENTALCLOUD - GITIGNORE GENERAL
+# Laravel + React + Vite + PostgreSQL
+# ==================================================
+
+
+# ==================================================
+# 1. SISTEMA OPERATIVO
+# ==================================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+
+# ==================================================
+# 2. EDITORES E IDE
+# ==================================================
+
+# Visual Studio Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+
+
+# ==================================================
+# 3. LARAVEL - BACKEND
+# ==================================================
+
+# Variables de entorno y credenciales
+/backend/.env
+/backend/.env.*
+!/backend/.env.example
+
+# Dependencias PHP
+/backend/vendor/
+
+# Archivos generados
+/backend/public/build/
+/backend/public/hot
+/backend/public/storage
+
+# Caché de Laravel
+/backend/bootstrap/cache/*.php
+
+# Logs
+/backend/storage/logs/*
+!/backend/storage/logs/.gitignore
+
+# Caché, sesiones y vistas
+/backend/storage/framework/cache/*
+!/backend/storage/framework/cache/.gitignore
+
+/backend/storage/framework/sessions/*
+!/backend/storage/framework/sessions/.gitignore
+
+/backend/storage/framework/views/*
+!/backend/storage/framework/views/.gitignore
+
+/backend/storage/framework/testing/*
+!/backend/storage/framework/testing/.gitignore
+
+# Archivos privados y generados
+/backend/storage/app/private/*
+/backend/storage/app/public/*
+!/backend/storage/app/private/.gitignore
+!/backend/storage/app/public/.gitignore
+
+# PHPUnit
+/backend/.phpunit.cache/
+/backend/.phpunit.result.cache
+
+# Xdebug y cobertura
+/backend/coverage/
+/backend/reports/coverage/
+/backend/.phpunit-watcher.yml
+
+# Archivos temporales
+/backend/*.log
+
+
+# ==================================================
+# 4. REACT + VITE - FRONTEND
+# ==================================================
+
+# Dependencias
+/frontend/node_modules/
+/frontend/bower_components/
+
+# Archivos compilados
+/frontend/dist/
+/frontend/build/
+
+# Variables de entorno
+/frontend/.env
+/frontend/.env.*
+!/frontend/.env.example
+
+# Vite
+/frontend/.vite/
+/frontend/.vite-temp/
+
+# Cobertura de pruebas
+/frontend/coverage/
+
+# Logs de Node
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/pnpm-debug.log*
+
+# Caché de herramientas
+/frontend/.eslintcache
+/frontend/.stylelintcache
+/frontend/.parcel-cache/
+/frontend/.turbo/
+/frontend/.next/
+/frontend/.nuxt/
+
+
+# ==================================================
+# 5. NODE.JS - GENERAL
+# ==================================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+.npm/
+.eslintcache
+.node_repl_history
+
+# Archivos de bloqueo de procesos
+*.pid
+*.pid.lock
+
+# Archivos de instrumentación
+lib-cov/
+.nyc_output/
+
+
+# ==================================================
+# 6. PHP - GENERAL
+# ==================================================
+
+# Composer
+vendor/
+composer.phar
+
+# PHPUnit
+.phpunit.cache/
+.phpunit.result.cache
+
+# PHPStan
+.phpstan/
+phpstan.neon.local
+
+# Psalm
+.psalm/
+psalm.xml
+
+# PHPCS
+.phpcs-cache
+
+# Xdebug
+*.prof
+cachegrind.out.*
+
+
+# ==================================================
+# 7. BASES DE DATOS LOCALES
+# ==================================================
+
+# Dumps y respaldos locales
+*.sql
+*.sql.gz
+*.dump
+*.backup
+*.bak
+
+# Archivos SQLite locales
+*.sqlite
+*.sqlite3
+*.db
+
+
+# ==================================================
+# 8. REPORTES Y ARCHIVOS GENERADOS
+# ==================================================
+
+# Cobertura
+coverage/
+coverage.xml
+clover.xml
+
+# Reportes de pruebas generados
+reports/coverage/
+reports/test-results.xml
+reports/test-results.html
+
+# Documentos temporales
+*.tmp
+*.temp
+*.old
+
+
+# ==================================================
+# 9. LOGS
+# ==================================================
+
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+
+# ==================================================
+# 10. ARCHIVOS DE CONFIGURACIÓN LOCALES
+# ==================================================
+
+.env
+.env.*
+!.env.example
+
+# Certificados y claves privadas
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+
+# Archivos de credenciales
+credentials.json
+secrets.json
+
+
+# ==================================================
+# 11. DOCKER (DATOS LOCALES)
+# ==================================================
+
+# Datos persistentes locales
+.docker/data/
+docker-data/
+volumes/
+
+
+# ==================================================
+# 12. ARCHIVOS DE PRUEBA Y TEMPORALES
+# ==================================================
+
+*.cache
+*.orig
+*.rej
+*.stackdump
+*.swo
+*.swp
+
+
+# ==================================================
+# FIN DE DENTALCLOUD
+# ==================================================

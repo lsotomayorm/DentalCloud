@@ -15,3 +15,7 @@ DentalCloud/
 ├── README.md
 └── .gitignore
 ```
+
+## Puesta en marcha
+
+Pendiente: inicializar Laravel en `backend/` y React + Vite en `frontend/`.
